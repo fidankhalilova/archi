@@ -23,9 +23,8 @@ interface ProductImage {
       sizeInBytes: number;
       url: string;
     };
-    // Add other formats if needed (small, medium, large)
   };
-  url?: string; // Original image URL might be here
+  url?: string;
 }
 
 interface Product {
